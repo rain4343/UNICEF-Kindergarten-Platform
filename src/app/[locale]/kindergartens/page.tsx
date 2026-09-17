@@ -3,6 +3,8 @@ import { isAppLocale } from "@/i18n/config";
 import { notFound } from "next/navigation";
 import { KindergartenDirectory } from "@/components/sites/kindergarten-directory";
 
+export const dynamic = "force-dynamic";
+
 export default async function KindergartensPage({
   params,
 }: {
