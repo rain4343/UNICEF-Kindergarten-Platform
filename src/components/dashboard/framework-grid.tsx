@@ -1,4 +1,3 @@
-"use client";
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import { FORM_CODES, FORM_TITLES } from "@/content/frameworks";
